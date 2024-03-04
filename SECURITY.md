@@ -7,9 +7,9 @@ This project is released in the BETA version and is done in Python. It is a tool
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0   | :white_check_mark: |
-| 1.1   | :?:                |
-| 2.0   | :?: |
-| 2.1   | :?:                |
+| 1.1   | ?                |
+| 2.0   | ? |
+| 2.1   | ?                |
 
 ## Reporting a Vulnerability
 
