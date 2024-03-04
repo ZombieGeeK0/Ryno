@@ -6,10 +6,10 @@ This project is released in the BETA version and is done in Python. It is a tool
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.0   | :white_check_mark: |
+| 1.1   | :?:                |
+| 2.0   | :?: |
+| 2.1   | :?:                |
 
 ## Reporting a Vulnerability
 
