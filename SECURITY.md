@@ -7,14 +7,12 @@ This project is released in the BETA version and is done in Python. It is a tool
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0   | :white_check_mark: |
-| 1.1   | ?                |
-| 2.0   | ? |
-| 2.1   | ?                |
+| 1.1   | Under construction |
+| 2.0   | Under construction |
+| 2.1   | Under construction |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+NONE
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+This project is not aware of any vulnerability detected in the BETA version. Reporting on the other versions is in progress, as they are still under construction.
