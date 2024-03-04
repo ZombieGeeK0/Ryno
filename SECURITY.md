@@ -2,7 +2,8 @@
 
 ## Supported Versions
 
-This project is released in the BETA version and is done in Python. It is a tool that works with OSINT and Python to perform scans and Penesting, and has Kali Linux as its working environment.
+This project is released in the BETA version and is done in Python. It is a tool that works with OSINT 
+and Python to perform scans and Penesting, and has Kali Linux as its working environment.
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -15,4 +16,5 @@ This project is released in the BETA version and is done in Python. It is a tool
 
 NONE
 
-This project is not aware of any vulnerability detected in the BETA version. Reporting on the other versions is in progress, as they are still under construction.
+This project is not aware of any vulnerability detected in the BETA version. 
+Reporting on the other versions is in progress, as they are still under construction.
