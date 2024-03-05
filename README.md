@@ -42,7 +42,7 @@
     [-s, --scan]  Scan the ports of the IP indicated next to the argument
     [-e, --exit]  Exits the terminal and/or program
     [-t, --text]  Provides information of some kind in plain text   
-    [-c, --cript]  Is followed by the name of the hash with which to encrypt the plaintext subsequently specified with the "-t" parameter
+    [-h, --hash]  Is followed by the name of the hash with which to encrypt the plaintext subsequently specified with the "-t" parameter
     [-u, --unhash]  Breaks the hash on the encryption cipher specified after the "-u" parameter. The hashed plaintext is indicated by the parameter "-t"
     [-d, --detect]  Detects the hash with which a text has been encrypted. The argument "-d" is accompanied by the encrypted text
     [-r, --research]  Search for an email on OSINT pages. The email is indicated after the "-r" parameter
@@ -55,7 +55,7 @@
     python3 ryno.py -c 3
     python3 ryno.py -s 127.0.1.1
     python3 ryno.py -e 3
-    python3 ryno.py -c md5 -t hello
+    python3 ryno.py -h md5 -t hello
     python3 ryno.py -u md5 -t 5d41402abc4b2a76b9719d911017c592
     python3 ryno.py -d 5d41402abc4b2a76b9719d911017c592
     python3 ryno.py -r iamdonald@gmail.com
