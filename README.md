@@ -1,28 +1,36 @@
 # Ryno
 
-`[>]` Imagen:
+`[>]` Image:
 
 ![Ryno](https://github.com/ZombieGeeK0/Ryno/assets/158185295/60c7052d-1f03-4a27-abf4-ec1b5a2214a0)
 
 <hr>
 
-`[>]` Este software está desarrollado para `Kali Linux` y hecho en Python.
+`[>]` This software is developed for `Kali Linux` and made in Python.
 
-`[>]` Soporte:
+`[>]` Support:
 
-
+| System | Supported          |
+| ------- | ------------------ |
+| Windows   | :x: |
+| Kali Linux   | :white_check_mark: |
+| Debian   | :white_check_mark: |
+| Red Hat   | :x: |
+| Fedora | :x: |
+| Android | :x: |
+| MacOS | :x: |
 
 <hr>
 
-`[>]` Instalación en `Linux:`
+`[>]` Linux `installation:`
 
-`[>]` Clonar el `repositorio:`
+`[>]` Clone the `repositorio:`
 
     git clone https://github.com/ZombieGeeK0/Ryno
-`[>]` Acceder a la `cerpeta:`
+`[>]` Access to the `folder:`
 
     cd Ryno
-`[>]` Darle permisos al `instalador:`
+`[>]` Give permissions to the `installer:`.
 
     chmod +x install.sh && chmod 777 install.sh
 
@@ -36,6 +44,8 @@ Descargo de responsabilidad en el codigo de conducta
 
 
 cambiar [>] por info
+
+poner en ingles
 
 
 imagen
