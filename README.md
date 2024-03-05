@@ -24,21 +24,23 @@
 
 `[INFO]` Linux `installation:`
 
-`[INFO]` Clone the `repository:`
+`[1]` Clone the `repository:`
 
     git clone https://github.com/ZombieGeeK0/Ryno
-`[INFO]` Access to the `folder:`
+`[2]` Access to the `folder:`
 
     cd Ryno
-`[INFO]` Give permissions to the `installer:`.
+`[3]` Give permissions to the `installer:`.
 
     chmod +x install.sh && chmod 777 install.sh
 
 <hr>
 
-Explicacion del funcionamiento
-
 funcionalidades y argumentos
+
+<hr>
+
+Explicacion del funcionamiento
 
 Descargo de responsabilidad en el codigo de conducta
 
