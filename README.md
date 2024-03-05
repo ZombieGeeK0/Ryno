@@ -50,6 +50,19 @@
 
 <hr>
 
+`[INFO]` Examples:
+
+    python3 ryno.py -c 3
+    python3 ryno.py -s 127.0.1.1
+    python3 ryno.py -e 3
+    python3 ryno.py -c md5 -t hello
+    python3 ryno.py -u md5 -t 5d41402abc4b2a76b9719d911017c592
+    python3 ryno.py -d 5d41402abc4b2a76b9719d911017c592
+    python3 ryno.py -r iamdonald@gmail.com
+    python3 ryno.py -q https://www.google.com
+
+<hr>
+
 páginas en las q se busca con OSINT email
 
 decir los cifrados criptograficos soportados
