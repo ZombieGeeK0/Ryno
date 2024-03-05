@@ -38,9 +38,21 @@
 
 `[INFO]` Arguments:
 
-    [-c, --console]  Solicita una consola (shell) interactiva. Va acampañada del tiempo en el que abrir la consola en segundos
+    [-c, --console]  Requests an interactive shell. It is accompanied by the time in which to open the console in seconds
+    [-s, --scan]  Scan the ports of the IP indicated next to the argument
+    [-e, --exit]  Exits the terminal and/or program
+    [-t, --text]  Provides information of some kind in plain text   
+    [-c, --cript]  Is followed by the name of the hash with which to encrypt the plaintext subsequently specified with the "-t" parameter
+    [-u, --unhash]  Breaks the hash on the encryption cipher specified after the "-u" parameter. The hashed plaintext is indicated by the parameter "-t"
+    [-d, --detect]  Detects the hash with which a text has been encrypted. The argument "-d" is accompanied by the encrypted text
+    [-r, --research]  Search for an email on OSINT pages. The email is indicated after the "-r" parameter
+    [-q, --qrcode]  Generates a QR code of a given page after the argument "-q"
 
 <hr>
+
+páginas en las q se busca con OSINT email
+
+decir los cifrados criptograficos soportados
 
 Explicacion del funcionamiento
 
