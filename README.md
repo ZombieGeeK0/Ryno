@@ -82,6 +82,7 @@
 | DES   | :x: |
 | RSA   | :white_check_mark: |
 | MD5   | :white_check_mark: |
+| SHA-256 | :x: |
 
 <hr>
 
