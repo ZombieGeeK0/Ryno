@@ -36,20 +36,15 @@
 
 <hr>
 
-funcionalidades y argumentos
+`[INFO]` Arguments:
+
+    [-c, --console]  Solicita una consola (shell) interactiva. Va acampañada del tiempo en el que abrir la consola en segundos
 
 <hr>
 
 Explicacion del funcionamiento
 
-Descargo de responsabilidad en el codigo de conducta
-
-
-cambiar [>] por info
-
-poner en ingles
-
-
+poner 📬 mailbox para cpontaxctp
 imagen
 
 contacto
