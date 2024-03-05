@@ -8,6 +8,12 @@
 
 `[>]` Este software está desarrollado para `Kali Linux` y hecho en Python.
 
+`[>]` Soporte:
+
+
+
+<hr>
+
 `[>]` Instalación en `Linux:`
 
 `[>]` Clonar el `repositorio:`
@@ -27,6 +33,9 @@ Explicacion del funcionamiento
 funcionalidades y argumentos
 
 Descargo de responsabilidad en el codigo de conducta
+
+
+cambiar [>] por info
 
 
 imagen
