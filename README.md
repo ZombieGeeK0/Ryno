@@ -63,7 +63,16 @@
 
 <hr>
 
-páginas en las q se busca con OSINT email
+`[INFO]` Sites searched by the "-r" parameter ("--research"):
+
+- GitHub ✔️
+- Facebook ✔️
+- Linkedlin ✔️
+- TikTok ✔️
+- Instagram ✔️
+- HackTheBox ✔️
+
+<hr>
 
 decir los cifrados criptograficos soportados
 
