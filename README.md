@@ -87,6 +87,8 @@
 
 Explicacion del funcionamiento
 
+imagen
+
 poner 📬 mailbox para cpontaxctp
 imagen
 
