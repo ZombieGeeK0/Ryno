@@ -74,7 +74,16 @@
 
 <hr>
 
-decir los cifrados criptograficos soportados
+`[INFO]` Algorithms supported in Ryno:
+
+| System | Supported          |
+| ------- | ------------------ |
+| AES   | :white_check_mark: |
+| DES   | :x: |
+| RSA   | :white_check_mark: |
+| MD5   | :white_check_mark: |
+
+<hr>
 
 Explicacion del funcionamiento
 
