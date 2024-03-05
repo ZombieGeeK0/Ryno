@@ -1,14 +1,14 @@
 # Ryno
 
-`[>]` Image:
+`[INFO]` Image:
 
 ![Ryno](https://github.com/ZombieGeeK0/Ryno/assets/158185295/60c7052d-1f03-4a27-abf4-ec1b5a2214a0)
 
 <hr>
 
-`[>]` This software is developed for `Kali Linux` and made in Python.
+`[INFO]` This software is developed for `Kali Linux` and made in Python.
 
-`[>]` Support:
+`[INFO]` Support:
 
 | System | Supported          |
 | ------- | ------------------ |
@@ -22,15 +22,15 @@
 
 <hr>
 
-`[>]` Linux `installation:`
+`[INFO]` Linux `installation:`
 
-`[>]` Clone the `repositorio:`
+`[INFO]` Clone the `repository:`
 
     git clone https://github.com/ZombieGeeK0/Ryno
-`[>]` Access to the `folder:`
+`[INFO]` Access to the `folder:`
 
     cd Ryno
-`[>]` Give permissions to the `installer:`.
+`[INFO]` Give permissions to the `installer:`.
 
     chmod +x install.sh && chmod 777 install.sh
 
