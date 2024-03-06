@@ -88,6 +88,15 @@
 
 Explicacion del funcionamiento
 
+<hr>
+
+## 🥇 CREDITS 🥇
+
+- [ZombieGeek0](https://www.github.com/ZombieGeek0)
+- [Euronymou5](https://www.github.com/Euronymou5)
+
+<hr>
+
 imagen
 
 https://recursospython.com/guias-y-manuales/hashlib-md5-sha/
