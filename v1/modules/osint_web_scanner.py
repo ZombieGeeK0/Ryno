@@ -5,9 +5,9 @@ from colorama import Fore, Back
 # creamos los argumentos de parser
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--research', '-r',
+parser.add_argument('--osint', '-o',
                     required=True,
-                    help="Indica el e-mail a buscar")
+                    help="Indica el nombre de usuario a buscar")
 
 args = parser.parse_args()
 
