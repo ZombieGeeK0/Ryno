@@ -24,7 +24,7 @@ def main(url):
         print(text)
 
     else:
-        print(f'\n{GREEN}[INFO]: {RESET}Error: El código de error de la página indicada no es válido.\n')
+        print(f'\n{GREEN}[INFO]:{RESET} Error: El código de error de la página indicada no es válido.\n')
         sys.exit()
 
 # ejecutamos la función con el email indicado en el argumento
