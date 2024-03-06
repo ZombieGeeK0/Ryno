@@ -1,6 +1,15 @@
 # importamos las librerías necesarias
 import socket, time
- 
+
+# creamos los argumentos de parser
+parser = argparse.ArgumentParser()
+
+parser.add_argument('--scan', '-s',
+                    required=True,
+                    help="Indica el host a escanear en busca de puertos abiertos")
+
+args = parser.parse_args()
+
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  
 # asignamos el objetivo
