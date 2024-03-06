@@ -88,8 +88,8 @@ Explicacion del funcionamiento
 
 ## 🥇 CREDITS 🥇
 
-- [ZombieGeek0](https://www.github.com/ZombieGeek0): El proyecto Ryno casi al completo.
-- [Euronymou5](https://www.github.com/Euronymou5): Por el OSINT email.
+- [ZombieGeek0](https://www.github.com/ZombieGeek0): The Ryno proyect.
+- [Euronymou5](https://www.github.com/Euronymou5): For the OSINT email.
 
 <hr>
 
