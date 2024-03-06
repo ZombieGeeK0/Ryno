@@ -1,5 +1,5 @@
 # importamos las librerías necesarias
-import requests, os, argparse, sys, socket
+import requests, argparse, sys
 from colorama import Fore, Back
 
 # creamos los argumentos de parser
@@ -25,6 +25,7 @@ def main(url):
 
     else:
         print(f'\n{GREEN}[INFO]: {RESET}Error: El código de error de la página indicada no es válido.\n')
+        sys.exit()
 
 # ejecutamos la función con el email indicado en el argumento
 main(args.research)
