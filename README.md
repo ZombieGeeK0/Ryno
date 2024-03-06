@@ -100,7 +100,7 @@ Explicacion del funcionamiento
 imagen
 
 https://recursospython.com/guias-y-manuales/hashlib-md5-sha/
-
+configurar los logs
 
 
 <hr>
