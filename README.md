@@ -107,6 +107,7 @@ poner bien la tabulación desde mi ordenador
 
 configurar los soportes del osint email en las webs y TODO LO DE OSINT HAY VARIOS EMAIL Y OSINT WEB SCANNER
 
+d
 
 <hr>
 
