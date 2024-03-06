@@ -1,5 +1,5 @@
 # importamos las librerías necesarias
-import os, sys, socket, argparse, requests
+import os, sys, socket, argparse, requests, qrcode
 from colorama import Fore, Back
 
 # hacemos los colores de colorama
@@ -15,3 +15,4 @@ parser.add_argument('--qrcode', '-q',
 
 args = parser.parse_args()
 
+# https://www.google.com/search?channel=fs&client=ubuntu&q=generar+qr+con+python
