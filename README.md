@@ -43,6 +43,7 @@
     [-d, --detect]  Detects the hash with which a text has been encrypted. The argument "-d" is accompanied by the encrypted text
     [-r, --research]  Search for an email on OSINT pages. The email is indicated after the "-r" parameter
     [-q, --qrcode]  Generates a QR code of a given page after the argument "-q"
+    [-o, --osint]  Scan a web with OSINT techniques
 
 <hr>
 
@@ -56,6 +57,7 @@
     python3 ryno.py -d 5d41402abc4b2a76b9719d911017c592
     python3 ryno.py -r iamdonald@gmail.com
     python3 ryno.py -q https://www.google.com
+    python3 ryno.py -o https://www.github.com
 
 <hr>
 
