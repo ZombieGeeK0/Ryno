@@ -1,13 +1,22 @@
 # importamos las librerías necesarias
 import os, time, random, re
 from googlesearch import search
+from colorama import Fore, Back
 
-class Colores:
-  RED = "\033[31;1m"
-  GREEN = "\033[92m"
-  BLUE = "\033[94m"
-  MAGENTA = "\033[36m"
-  YELLOW = "\033[33m"
+# creamos los argumentos de parser
+parser = argparse.ArgumentParser()
+
+# declaramos el argumento de parser
+parser.add_argument('--research', '-r',
+                    required=True,
+                    help="Indica el e-mail a buscar")
+
+args = parser.parse_args()
+
+class colores:
+  # hacemos los colores de colorama
+  GREEN = Fore.WHITE + Back.GREEN
+  RESET = Fore.RESET + Back.RESET
 
 def main():
     email = input(f'\n{Colores.azul}[~] Ingresa el email: ')
