@@ -48,21 +48,27 @@ def main():
       
     print(f'\n{color.GREEN}[INFO]:{color.RESET} Buscando email en archivos PDF...')
   
-    time.sleep(3)
+    time.sleep(1)
   
     for i in search(command2, tld, num=10, stop=10, pause=2):
-        print(f'\nResultados encontrados!: {i}')
-    print(f'\n{Colores.amarillo}[~] Buscando correo electronico en redes sociales...')
+        print(f'\n{color.GREEN}[INFO]:{color.RESET} Resultados encontrados: {i}')
+    print(f'\n{color.GREEN}[INFO]:{color.RESET} Buscando correo electrónico en redes sociales...')
+  
     for a in search(command3, tld, num=10, stop=10, pause=2):
         print(f'\nResultados encontrados!: {a}')
+      
     for b in search(command4, tld, num=10, stop=10, pause=2):
-      print(f'\nResultados encontrados!: {b}')
+      print(f'\n{color.GREEN}[INFO]:{color.RESET} Resultados encontrados: {b}')
+      
     for c in search(command5, tld, num=10, stop=10, pause=2):
-      print(f'\nResultados encontrados!: {c}')
-    print(f'\n{Colores.verde}[~] Iniciando socialscan...')
-    time.sleep(3)
+      print(f'\n{color.GREEN}[INFO]:{color.RESET} Resultados encontrados: {c}')
+      
+    print(f'\n{color.GREEN}[INFO]:{color.RESET} Iniciando socialscan...')
+  
+    time.sleep(1)
+  
     print('')
     os.system(f"socialscan {email}")
-    print(f'\n{Colores.azul}[~] Escaneo completo.')
+    print(f'\n{color.GREEN}[INFO]:{color.RESET} Escaneo completo.')
 
 main()
