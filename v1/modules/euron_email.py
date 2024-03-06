@@ -1,10 +1,6 @@
-# Osint a un email utilizando socialscan y dorking
-
-import os
-import time
+# importamos las librerías necesarias
+import os, time, random, re
 from googlesearch import search
-import random
-import re
 
 class Colores:
   red="\033[31;1m"
