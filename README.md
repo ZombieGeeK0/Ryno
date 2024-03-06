@@ -29,7 +29,7 @@
     git clone https://github.com/ZombieGeeK0/Ryno
 `[2]` Access to the `folder:`
 
-    cd RynoV1
+    cd Ryno && cd v1
 `[3]` Give permissions to the `installer:`.
 
     chmod +x install.sh && chmod 777 install.sh
