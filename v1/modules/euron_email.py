@@ -17,10 +17,11 @@ class color:
   GREEN = Fore.WHITE + Back.GREEN
   RESET = Fore.RESET + Back.RESET
 
+# creamos la función principal
 def main():
-    email = input(f'\n{Colores.azul}[~] Ingresa el email: ')
+    email = args.research
     if email == "" or email == " ":
-        print(f'\n{Colores.red}[!] Error debes de ingresar un email.')
+        print(f'\n{Colores.red}[INFO]: Error: debes de ingresar un email.')
         time.sleep(2)
         main()
     else:
