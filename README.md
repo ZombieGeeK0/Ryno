@@ -107,8 +107,6 @@ poner bien la tabulación desde mi ordenador
 
 configurar los soportes del osint email en las webs y TODO LO DE OSINT HAY VARIOS EMAIL Y OSINT WEB SCANNER
 
-
-
 <hr>
 
 `[ 📬 ]` Contacta conmigo a través de `Discord` mandando una invitación a `qwfkr.`
