@@ -57,7 +57,7 @@
     python3 ryno.py -d 5d41402abc4b2a76b9719d911017c592
     python3 ryno.py -r iamdonald@gmail.com
     python3 ryno.py -q https://www.google.com
-    python3 ryno.py -o https://www.github.com
+    python3 ryno.py -o https://www.github.com -t username
 
 <hr>
 
