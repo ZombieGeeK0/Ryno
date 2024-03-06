@@ -93,7 +93,7 @@ Explicacion del funcionamiento
 ## 🥇 CREDITS 🥇
 
 - [ZombieGeek0](https://www.github.com/ZombieGeek0)
-- [Euronymou5](https://www.github.com/Euronymou5)
+- [Euronymou5](https://www.github.com/Euronymou5) Por el OSINT email.
 
 <hr>
 
