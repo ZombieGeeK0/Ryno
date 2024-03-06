@@ -1,5 +1,5 @@
 # importamos las librerías necesarias
-import os, sys, socket, argparse, requests, qrcode
+import qrcode
 from colorama import Fore, Back
 
 # hacemos los colores de colorama
