@@ -26,11 +26,15 @@ def main():
   
     else:
         regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+      
         if (re.fullmatch(regex, email)):
-            print(f'\n{Colores.verde}[?] Email valido: ✔️')
+          
+            print(f'\n{color.GREEN}[INFO]:{color.RESET} Email válido')
+          
         else:
-            print(f'\n{Colores.red}[!] Email invalido')
-            exit()
+            print(f'\n{color.GREEN}[INFO]: {color.RESET}Email inválido')
+            sys.exit()
+          
     dom = ["com","com.tw","co.in","be","de","co.uk","co.ma","dz","ru","ca"]
     tld = random.choice(dom)
     command = f'intext:{email}'
@@ -38,10 +42,14 @@ def main():
     command3 = f"site:facebook.com intext:{email}"
     command4 = f"site:twitter.com intext:{email}"
     command5 = f"site:instagram.com intext:{email}"
+  
     for j in search(command, tld, num=10, stop=10, pause=2):
-        print(f'\nResultados encontrados!: {j}')
-    print(f'\n{Colores.azul}[~] Buscando email en archivos pdf...')
+        print(f'\n{color.GREEN}[INFO]:{color.RESET} Resultados encontrados: {j}')
+      
+    print(f'\n{color.GREEN}[INFO]:{color.RESET} Buscando email en archivos PDF...')
+  
     time.sleep(3)
+  
     for i in search(command2, tld, num=10, stop=10, pause=2):
         print(f'\nResultados encontrados!: {i}')
     print(f'\n{Colores.amarillo}[~] Buscando correo electronico en redes sociales...')
