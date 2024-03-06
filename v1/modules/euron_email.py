@@ -21,7 +21,7 @@ class color:
 def main():
     email = args.research
     if email == "" or email == " ":
-        print(f'\n{Colores.red}[INFO]: Error: debes de ingresar un email.')
+        print(f'\n{color.GREEN}[INFO]:{color.RESET} Error: debes de ingresar un email.')
         time.sleep(2)
         main()
     else:
