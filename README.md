@@ -27,13 +27,9 @@
 `[1]` Clone the `repository:`
 
     git clone https://github.com/ZombieGeeK0/Ryno
-`[2]` Access to the `folder:`
+`[2]` Access to the folder and `give parmissions` to the `install.sh:`
 
-    cd Ryno && cd v1
-`[3]` Give permissions to the `installer:`.
-
-    chmod +x install.sh && chmod 777 install.sh
-
+    cd Ryno && chmod +x install.sh && chmod 777 install.sh && cd v1
 <hr>
 
 `[INFO]` Arguments:
