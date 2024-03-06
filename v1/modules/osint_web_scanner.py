@@ -22,6 +22,9 @@ def main(url):
     if response.status_code == 200:
         text = response.text
         print(text)
+      
+        if args.text in text:
+          pass
 
     else:
         print(f'\n{GREEN}[INFO]:{RESET} Error: El código de error de la página indicada no es válido.\n')
