@@ -105,6 +105,8 @@ configurar los logs
 
 poner los comentarios del codigo en ingles y la descripcion de los argumentos
 
+poner bien la tabulación desde mi ordenador
+
 
 <hr>
 
