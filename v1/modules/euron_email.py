@@ -1,5 +1,5 @@
 # importamos las librerías necesarias
-import os, time, random, re
+import os, time, random, re, sys
 from googlesearch import search
 from colorama import Fore, Back
 
@@ -21,9 +21,9 @@ class color:
 def main():
     email = args.research
     if email == "" or email == " ":
-        print(f'\n{color.GREEN}[INFO]:{color.RESET} Error: debes de ingresar un email.')
-        time.sleep(2)
-        main()
+        print(f'\n{color.GREEN}[INFO]:{color.RESET} Error: Debes ingresar un email en el argumento')
+        sys.exit()
+  
     else:
         regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
         if (re.fullmatch(regex, email)):
