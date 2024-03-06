@@ -3,11 +3,11 @@ import os, time, random, re
 from googlesearch import search
 
 class Colores:
-  red="\033[31;1m"
-  verde="\033[92m"
-  azul="\033[94m"
-  magenta="\033[36m"
-  amarillo="\033[33m"
+  RED = "\033[31;1m"
+  GREEN = "\033[92m"
+  BLUE = "\033[94m"
+  MAGENTA = "\033[36m"
+  YELLOW = "\033[33m"
 
 def main():
     email = input(f'\n{Colores.azul}[~] Ingresa el email: ')
