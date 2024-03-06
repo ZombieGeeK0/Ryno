@@ -90,6 +90,10 @@ Explicacion del funcionamiento
 
 imagen
 
+https://recursospython.com/guias-y-manuales/hashlib-md5-sha/
+
+
+
 <hr>
 
 `[ 📬 ]` Contacta conmigo a través de `Discord` mandando una invitación a `qwfkr.`
