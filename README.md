@@ -105,7 +105,7 @@ poner los comentarios del codigo en ingles y la descripcion de los argumentos y 
 
 poner bien la tabulación desde mi ordenador
 
-configurar los soportes del osint email en las webs
+configurar los soportes del osint email en las webs y TODO LO DE OSINT HAY VARIOS EMAIL Y OSINT WEB SCANNER
 
 
 <hr>
