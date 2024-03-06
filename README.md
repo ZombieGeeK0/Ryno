@@ -107,7 +107,7 @@ https://recursospython.com/guias-y-manuales/hashlib-md5-sha/
 
 `[ 📬 ]` Contacta conmigo a través de `Discord` mandando una invitación a `qwfkr.`
 
-        qwfkr
+    qwfkr
 `[ 📬 ]` Si lo prefieres, mándame un correo a `3xpl017.contact@proton.me.`
 
-        3xpl017.contact@proton.me.
+    3xpl017.contact@proton.me.
