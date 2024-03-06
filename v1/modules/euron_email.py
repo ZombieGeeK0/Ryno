@@ -6,15 +6,14 @@ from colorama import Fore, Back
 # creamos los argumentos de parser
 parser = argparse.ArgumentParser()
 
-# declaramos el argumento de parser
 parser.add_argument('--research', '-r',
                     required=True,
                     help="Indica el e-mail a buscar")
 
 args = parser.parse_args()
 
-class colores:
-  # hacemos los colores de colorama
+# creamos la clase de colores
+class color:
   GREEN = Fore.WHITE + Back.GREEN
   RESET = Fore.RESET + Back.RESET
 
