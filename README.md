@@ -103,7 +103,7 @@ https://recursospython.com/guias-y-manuales/hashlib-md5-sha/
 
 configurar los logs
 
-poner los comentarios del codigo en ingles
+poner los comentarios del codigo en ingles y la descripcion de los argumentos
 
 
 <hr>
