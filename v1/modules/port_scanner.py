@@ -10,7 +10,7 @@ RESET = Fore.RESET + Back.RESET
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--scan', '-s',
-                    required=True,
+                    required=False,
                     help="Indicates host to be scanned for open ports")
 
 args = parser.parse_args()
