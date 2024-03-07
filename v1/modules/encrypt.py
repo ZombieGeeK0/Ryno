@@ -12,7 +12,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument('--encrypt', '-e',
                     required=True,
-                    help="Indicates the encrypt algorithm to use")
+                    help="Indicates the passket to encrypt the text")
 
 parser.add_argument('--text', '-t',
                     required=True,
