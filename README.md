@@ -73,7 +73,7 @@
 | ------- | ------------------ |
 | AES   | :x: |
 | DES   | :x: |
-| symplecrypt | ✔️ |
+| simplecrypt | ✔️ |
 | RSA   | :x: |
 | MD5   | :x: |
 | SHA-256 | :x: |
