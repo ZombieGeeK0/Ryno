@@ -50,7 +50,7 @@
 
     python3 ryno.py -c 3 (SECOND VERSION, under construction)
     python3 ryno.py -s 127.0.1.1
-    python3 ryno.py -l true
+    python3 ryno.py -l 3
     python3 ryno.py -e passkey -t hello
     python3 ryno.py -u passkey -t codemessage1234
     python3 ryno.py -r iamdonald@gmail.com
