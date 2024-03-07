@@ -63,12 +63,9 @@
 
 `[INFO]` Sites searched by the "-r" parameter ("--research"):
 
-- GitHub ✔️
 - Facebook ✔️
-- Linkedlin ✔️
-- TikTok ✔️
+- Twitter ✔️
 - Instagram ✔️
-- HackTheBox ✔️
 
 <hr>
 
