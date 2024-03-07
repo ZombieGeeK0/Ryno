@@ -1,12 +1,12 @@
-# importamos las librerías necesarias
+# import the necesary libraries
 import qrcode
 from colorama import Fore, Back
 
-# hacemos los colores de colorama
+# create the colorama colors
 GREEN = Fore.WHITE + Back.GREEN
 RESET = Fore.RESET + Back.RESET
 
-# creamos los argumentos de parser
+# create the parser arguments
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--qrcode', '-q',
@@ -14,6 +14,9 @@ parser.add_argument('--qrcode', '-q',
                     help="Indica la página de la que hacer el código QR")
 
 args = parser.parse_args()
+
+# define the variable url
+url = args.qrcode
 
 def generate_qrcode(url,
               version=4,
@@ -28,18 +31,15 @@ def generate_qrcode(url,
                      box_size=box_size,
                      border=border)
                 
-  # Adjuntamos el texto o url que se desea vincular
+  # attach the text or url you wish to link to
   qr.add_data(url)
   qr.make(fit=True)
                 
-  # Creamos la imagen del QR Code con colores RGB
+  # create the QR Code image with RGB colours
   qr_img = qr.make_image(fill_color=fill_color, back_color=back_color)
                 
-  # Guardamos el QR Code generado
+  # save the QR code
   qr_img.save(name)
 
-# definimos la vriable url
-url = args.qrcode
-
-# ejecutamos la función
+# execute the function
 generate_qrcode(url=url)
