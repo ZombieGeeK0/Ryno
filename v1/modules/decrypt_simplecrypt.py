@@ -10,9 +10,9 @@ RESET = Fore.RESET + Back.RESET
 # create the parser arguments
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--encrypt', '-e',
+parser.add_argument('--unhash', '-u',
                     required=True,
-                    help="Indicates the encrypt algorithm to use")
+                    help="Indicates the passkey to decrypt the text")
 
 parser.add_argument('--text', '-t',
                     required=True,
