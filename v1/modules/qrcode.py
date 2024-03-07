@@ -10,7 +10,7 @@ RESET = Fore.RESET + Back.RESET
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--qrcode', '-q',
-                    required=True,
+                    required=False,
                     help="Indica la página de la que hacer el código QR")
 
 args = parser.parse_args()
