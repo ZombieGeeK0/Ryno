@@ -6,11 +6,11 @@ from colorama import Fore, Back
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--osint', '-o',
-                    required=True,
+                    required=False,
                     help="Indica la web a la que hacer las requests")
 
 parser.add_argument('--text', '-t',
-                    required=True,
+                    required=False,
                     help="Indica el nombre de usuario a buscar")
 
 args = parser.parse_args()
