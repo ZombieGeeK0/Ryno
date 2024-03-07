@@ -5,7 +5,7 @@ import os, sys, argparse
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--leave', '-l',
-                    required=True,
+                    required=False,
                     help="Indicates the time to exit the terminal")
 
 args = parser.parse_args()
