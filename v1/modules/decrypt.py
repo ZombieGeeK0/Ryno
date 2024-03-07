@@ -26,6 +26,7 @@ passkey = args.encypt
 # the text to encrypt
 str1 = args.text
 
-# encrypt the text
+# encrypt and decrypt the text
 cipher = encrypt(passkey, str1)
-print(f'\n[{GREEN}INFO{RESET}]: Encrypted text: {cipher}')
+print(decrypt(passkey, cipher))
+print(f'\n[{GREEN}INFO{RESET}]: Decrypted text: {cipher}')
