@@ -34,7 +34,7 @@
 
 `[INFO]` Arguments:
 
-    [-c, --console]  Requests an interactive shell. It is accompanied by the time in which to open the console in seconds
+    [-c, --console]  Requests an interactive shell. It is accompanied by the time in which to open the console in seconds (SECOND VERSION, under construction)
     [-s, --scan]  Scan the ports of the IP indicated next to the argument
     [-l, --leave]  Exits the terminal and/or program
     [-t, --text]  Provides information of some kind in plain text   
@@ -48,7 +48,7 @@
 
 `[INFO]` Examples:
 
-    python3 ryno.py -c 3
+    python3 ryno.py -c 3 (SECOND VERSION, under construction)
     python3 ryno.py -s 127.0.1.1
     python3 ryno.py -l 3
     python3 ryno.py -e passkey -t hello
