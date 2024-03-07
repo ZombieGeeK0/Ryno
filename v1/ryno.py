@@ -1,5 +1,5 @@
 '''
-Modules: decrypt.py, email.py, encrypt.py, leave.py, osint_web_scanner.py, port_scanner.py, qrcode.py
+Modules: decrypt.py, email.py, encrypt.py, leave.py, osint_web_scanner.py, port_scanner.py, qrcode.py, console.py
 '''
 
 '''
