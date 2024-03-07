@@ -28,18 +28,18 @@ def main(url):
         # print(text)
       
         if args.text in plain_text:
-          print(f'{GREEN}[INFO]:{RESET} Nombre de usuario {args.text} ha sido encontrado')
+          print(f'\n[{GREEN}INFO{RESET}]: Nombre de usuario {args.text} ha sido encontrado')
 
         if args.text == '' or ' ':
-          print(f'\n{GREEN}[INFO]:{RESET} Error: Se debe indicar un nombre de usuario.\n')
+          print(f'\n[{GREEN}INFO{RESET}]: Error: Se debe indicar un nombre de usuario.\n')
           sys.exit()
 
         else:
-          print(f'\n{GREEN}[INFO]:{RESET} Error: Revisa si has añadido todos los argumentos necesarios.\n')
+          print(f'\n[{GREEN}INFO{RESET}]: Nombre de usuario no encontrado.\n')
           sys.exit()
 
     else:
-        print(f'\n{GREEN}[INFO]:{RESET} Error: El código de error de la página indicada no es válido.\n')
+        print(f'\n[{GREEN}INFO{RESET}]: Error: El código de error de la página indicada no es válido.\n')
         sys.exit()
 
 # ejecutamos la función con el email indicado en el argumento
