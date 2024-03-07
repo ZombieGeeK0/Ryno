@@ -11,4 +11,4 @@ parser.add_argument('--leave', '-l',
 args = parser.parse_args()
 
 # close the terminal
-os.system('clear && exit')
+os.system('clear && exit && exit && exit && exit && exit')
