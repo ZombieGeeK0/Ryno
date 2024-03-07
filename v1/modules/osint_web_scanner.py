@@ -1,8 +1,8 @@
-# importamos las librerías necesarias
+# import the necessary libraries
 import requests, argparse, sys
 from colorama import Fore, Back
 
-# creamos los argumentos de parser
+# create the parser arguments
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--osint', '-o',
@@ -15,32 +15,31 @@ parser.add_argument('--text', '-t',
 
 args = parser.parse_args()
 
-# hacemos los colores de colorama
+# create the colorama colors
 GREEN = Fore.WHITE + Back.GREEN
 RESET = Fore.RESET + Back.RESET
 
-# hacemos la función principal
+# create the main function
 def main(url):
     response = requests.get(url)
  
     if response.status_code == 200:
         plain_text = response.text
-        # print(text)
       
         if args.text in plain_text:
-          print(f'\n[{GREEN}INFO{RESET}]: Nombre de usuario {args.text} ha sido encontrado')
+          print(f'\n[{GREEN}INFO{RESET}]: Username {args.text} is found')
 
         if args.text == '' or ' ':
-          print(f'\n[{GREEN}INFO{RESET}]: Error: Se debe indicar un nombre de usuario.\n')
+          print(f'\n[{GREEN}INFO{RESET}]: Error: A user name must be entered\n')
           sys.exit()
 
         else:
-          print(f'\n[{GREEN}INFO{RESET}]: Nombre de usuario no encontrado.\n')
+          print(f'\n[{GREEN}INFO{RESET}]: Username {args.text} not found\n')
           sys.exit()
 
     else:
-        print(f'\n[{GREEN}INFO{RESET}]: Error: El código de error de la página indicada no es válido.\n')
+        print(f'\n[{GREEN}INFO{RESET}]: Error: The error code of the indicated page is invalid\n')
         sys.exit()
 
-# ejecutamos la función con el email indicado en el argumento
+# execute the function with the email indicated in the argument
 main(args.osint)
