@@ -20,4 +20,12 @@ parser.add_argument('--text', '-t',
 
 args = parser.parse_args()
 
-passkey = "wow"
+# create the passkey
+passkey = args.encypt
+
+# the text to encrypt
+str1 = args.text
+
+# encrypt the text
+cipher = encrypt(passkey, str1)
+print(f'\n[{GREEN}INFO{RESET}]: Encrypted text: {cipher}')
