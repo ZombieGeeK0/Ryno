@@ -1,5 +1,5 @@
 # import the necesary libraries
-import qrcode
+import qrcode, argparse
 from colorama import Fore, Back
 
 # create the colorama colors
