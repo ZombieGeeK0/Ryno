@@ -1,27 +1,27 @@
-# importamos las librerías necesarias
+# import the necessary libraries
 import os, time, random, re, sys
 from googlesearch import search
 from colorama import Fore, Back
 
-# creamos los argumentos de parser
+# create the parser arguments
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--research', '-r',
                     required=True,
-                    help="Indica el e-mail a buscar")
+                    help="Indicate the e-mail address to search")
 
 args = parser.parse_args()
 
-# creamos la clase de colores
+# create the color class
 class color:
   GREEN = Fore.WHITE + Back.GREEN
   RESET = Fore.RESET + Back.RESET
 
-# creamos la función principal
+# create the main function
 def main():
     email = args.research
     if email == "" or email == " ":
-        print(f'\n[{GREEN}INFO{RESET}]: Error: Debes ingresar un email en el argumento')
+        print(f'\n[{GREEN}INFO{RESET}]: Error: You must enter an email in the argument')
         sys.exit()
   
     else:
@@ -29,10 +29,10 @@ def main():
       
         if (re.fullmatch(regex, email)):
           
-            print(f'\n[{GREEN}INFO{RESET}]: Email válido')
+            print(f'\n[{GREEN}INFO{RESET}]: Valid email')
           
         else:
-            print(f'\n{color.GREEN}[INFO]: {color.RESET}Email inválido')
+            print(f'\n[{GREEN}INFO{RESET}]: Email no valid')
             sys.exit()
           
     dom = ["com","com.tw","co.in","be","de","co.uk","co.ma","dz","ru","ca"]
@@ -44,31 +44,31 @@ def main():
     command5 = f"site:instagram.com intext:{email}"
   
     for j in search(command, tld, num=10, stop=10, pause=2):
-        print(f'\n[{GREEN}INFO{RESET}]: Resultados encontrados: {j}')
+        print(f'\n[{GREEN}INFO{RESET}]: Results found: {j}')
       
-    print(f'\n[{GREEN}INFO{RESET}]: Buscando email en archivos PDF...')
+    print(f'\n[{GREEN}INFO{RESET}]: Searching email in PDF archives...')
   
     time.sleep(1)
   
     for i in search(command2, tld, num=10, stop=10, pause=2):
-        print(f'\n[{GREEN}INFO{RESET}]: Resultados encontrados: {i}')
-    print(f'\n[{GREEN}INFO{RESET}]: Buscando correo electrónico en redes sociales...')
+        print(f'\n[{GREEN}INFO{RESET}]: Results found: {i}')
+    print(f'\n[{GREEN}INFO{RESET}]: Searching email in social media...')
   
     for a in search(command3, tld, num=10, stop=10, pause=2):
-        print(f'\n[{GREEN}INFO{RESET}]: Resultados encontrados: {a}')
+        print(f'\n[{GREEN}INFO{RESET}]: Results found: {a}')
       
     for b in search(command4, tld, num=10, stop=10, pause=2):
-      print(f'\n[{GREEN}INFO{RESET}]: Resultados encontrados: {b}')
+      print(f'\n[{GREEN}INFO{RESET}]: Results found: {b}')
       
     for c in search(command5, tld, num=10, stop=10, pause=2):
-      print(f'\n[{GREEN}INFO{RESET}]: Resultados encontrados: {c}')
+      print(f'\n[{GREEN}INFO{RESET}]: Results found: {c}')
       
-    print(f'\n[{GREEN}INFO{RESET}]: Iniciando socialscan...')
+    print(f'\n[{GREEN}INFO{RESET}]: Initializing socialscan...')
   
     time.sleep(1)
   
     print('')
     os.system(f"socialscan {email}")
-    print(f'\n[{GREEN}INFO{RESET}]: Escaneo completo.')
+    print(f'\n[{GREEN}INFO{RESET}]: The scan is completed')
 
 main()
