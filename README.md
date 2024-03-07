@@ -73,10 +73,11 @@
 
 | System | Supported          |
 | ------- | ------------------ |
-| AES   | :white_check_mark: |
+| AES   | :x: |
 | DES   | :x: |
-| RSA   | :white_check_mark: |
-| MD5   | :white_check_mark: |
+| symplecrypt | ✔️ |
+| RSA   | :x: |
+| MD5   | :x: |
 | SHA-256 | :x: |
 
 <hr>
