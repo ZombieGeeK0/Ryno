@@ -1,14 +1,14 @@
 '''
-Modules: decrypt.py, email.py, encrypt.py, leave.py, osint_web_scanner.py, port_scanner.py, qrcode.py, console.py
-'''
-
-'''
 ©2024 By ZombieGeek0, MIT License (https://github.com/ZombieGeeK0/Ryno?tab=MIT-1-ov-file).
 '''
 
 # import the necesary libraries
 import argparse, os
 from colorama import Fore, Back
+
+# create the colorama colors
+GREEN = Fore.WHITE + Back.GREEN
+RESET = Fore.RESET + Back.RESET
 
 # create the parser arguments
 parser = argparse.ArgumentParser()
@@ -53,3 +53,27 @@ args = parser.parse_args()
 
 if args.console:
   os.system('cd modules && python3 console.py')
+
+elif args.scan:
+  os.system('cd modules && python3 port_scanner.py')
+
+elif args.leave:
+  os.system('cd modules && python3 leave.py')
+
+elif args.encrypt:
+  os.system('cd modules && python3 encrypt.py')
+
+elif args.unhash:
+  os.system('cd modules && python3 decrypt.py')
+
+elif args.research:
+  os.system('cd modules && python3 email.py')
+
+elif args.qrcode:
+  os.system('cd modules && python3 qrcode.py')
+
+elif args.osint:
+  os.system('cd modules && python3 osint_web_scanner.py')
+
+else:
+  print(f'\n[{GREEN}INFO{RESET}]: Error: Check if you have added all the necessary arguments\n')
