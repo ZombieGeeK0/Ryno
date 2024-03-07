@@ -1,6 +1,15 @@
 # import the necesary libraries
-import os, sys
+import os, sys, argparse
+
+# create the parser arguments
+parser = argparse.ArgumentParser()
+
+parser.add_argument('--exit', '-e',
+                    required=True,
+                    help="Indicates the time to exit the terminal")
+
+args = parser.parse_args()
 
 # close the terminal
+sys.exit(args.exit)
 os.system('clear && exit')
-sys.exit()
