@@ -1,5 +1,5 @@
 # import the necesary libraries
-import socket, time
+import socket, time, argparse
 from colorama import Fore, Back
 
 # create the colorama colors
