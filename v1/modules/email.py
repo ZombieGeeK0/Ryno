@@ -21,7 +21,7 @@ class color:
 def main():
     email = args.research
     if email == "" or email == " ":
-        print(f'\n{color.GREEN}[INFO]:{color.RESET} Error: Debes ingresar un email en el argumento')
+        print(f'\n[{GREEN}INFO{RESET}]: Error: Debes ingresar un email en el argumento')
         sys.exit()
   
     else:
@@ -29,7 +29,7 @@ def main():
       
         if (re.fullmatch(regex, email)):
           
-            print(f'\n{color.GREEN}[INFO]:{color.RESET} Email válido')
+            print(f'\n[{GREEN}INFO{RESET}]: Email válido')
           
         else:
             print(f'\n{color.GREEN}[INFO]: {color.RESET}Email inválido')
@@ -44,31 +44,31 @@ def main():
     command5 = f"site:instagram.com intext:{email}"
   
     for j in search(command, tld, num=10, stop=10, pause=2):
-        print(f'\n{color.GREEN}[INFO]:{color.RESET} Resultados encontrados: {j}')
+        print(f'\n[{GREEN}INFO{RESET}]: Resultados encontrados: {j}')
       
-    print(f'\n{color.GREEN}[INFO]:{color.RESET} Buscando email en archivos PDF...')
+    print(f'\n[{GREEN}INFO{RESET}]: Buscando email en archivos PDF...')
   
     time.sleep(1)
   
     for i in search(command2, tld, num=10, stop=10, pause=2):
-        print(f'\n{color.GREEN}[INFO]:{color.RESET} Resultados encontrados: {i}')
-    print(f'\n{color.GREEN}[INFO]:{color.RESET} Buscando correo electrónico en redes sociales...')
+        print(f'\n[{GREEN}INFO{RESET}]: Resultados encontrados: {i}')
+    print(f'\n[{GREEN}INFO{RESET}]: Buscando correo electrónico en redes sociales...')
   
     for a in search(command3, tld, num=10, stop=10, pause=2):
-        print(f'\nResultados encontrados!: {a}')
+        print(f'\n[{GREEN}INFO{RESET}]: Resultados encontrados: {a}')
       
     for b in search(command4, tld, num=10, stop=10, pause=2):
-      print(f'\n{color.GREEN}[INFO]:{color.RESET} Resultados encontrados: {b}')
+      print(f'\n[{GREEN}INFO{RESET}]: Resultados encontrados: {b}')
       
     for c in search(command5, tld, num=10, stop=10, pause=2):
-      print(f'\n{color.GREEN}[INFO]:{color.RESET} Resultados encontrados: {c}')
+      print(f'\n[{GREEN}INFO{RESET}]: Resultados encontrados: {c}')
       
-    print(f'\n{color.GREEN}[INFO]:{color.RESET} Iniciando socialscan...')
+    print(f'\n[{GREEN}INFO{RESET}]: Iniciando socialscan...')
   
     time.sleep(1)
   
     print('')
     os.system(f"socialscan {email}")
-    print(f'\n{color.GREEN}[INFO]:{color.RESET} Escaneo completo.')
+    print(f'\n[{GREEN}INFO{RESET}]: Escaneo completo.')
 
 main()
