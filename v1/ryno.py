@@ -13,3 +13,20 @@ Arguments:
 [-o, --osint]  Scan a web with OSINT techniques
 
 '''
+
+'''
+©2024 By ZombieGeek0, MIT License.
+'''
+
+# import the necesary libraries
+import argparse, os
+from colorama import Fore, Back
+
+# create the parser arguments
+parser = argparse.ArgumentParser()
+
+parser.add_argument('--research', '-r',
+                    required=True,
+                    help="Indicate the e-mail address to search")
+
+args = parser.parse_args()
