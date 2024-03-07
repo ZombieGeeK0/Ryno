@@ -11,11 +11,11 @@ RESET = Fore.RESET + Back.RESET
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--encrypt', '-e',
-                    required=True,
+                    required=False,
                     help="Indicates the passket to encrypt the text")
 
 parser.add_argument('--text', '-t',
-                    required=True,
+                    required=False,
                     help="Indicates the text")
 
 args = parser.parse_args()
