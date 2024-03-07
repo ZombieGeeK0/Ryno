@@ -39,7 +39,7 @@
     [-l, --leave]  Exits the terminal and/or program
     [-t, --text]  Provides information of some kind in plain text   
     [-e, --encrypt]  Is followed by the passkey and the plaintext subsequently specified with the "-t" parameter. Specifies the password with which to encrypt a string
-    [-u, --unhash]  Breaks the hash on the encryption cipher specified after the "-u" parameter. The hashed plaintext is indicated by the parameter "-t"
+    [-u, --unhash]  Breaks the hash on the encryption cipher specified after the "-u" parameter. The hashed plaintext is indicated by the parameter "-t". Indicates the passkey to decrypt the text
     [-d, --detect]  Detects the hash with which a text has been encrypted. The argument "-d" is accompanied by the encrypted text
     [-r, --research]  Search for an email on OSINT pages. The email is indicated after the "-r" parameter
     [-q, --qrcode]  Generates a QR code of a given page after the argument "-q"
@@ -53,8 +53,8 @@
     python3 ryno.py -s 127.0.1.1
     python3 ryno.py -l 3
     python3 ryno.py -e passkey -t hello
-    python3 ryno.py -u md5 -t 5d41402abc4b2a76b9719d911017c592
-    python3 ryno.py -d 5d41402abc4b2a76b9719d911017c592
+    python3 ryno.py -u passkey -t codemessage1234
+    python3 ryno.py -d passkey -t codemessage1234
     python3 ryno.py -r iamdonald@gmail.com
     python3 ryno.py -q https://www.google.com
     python3 ryno.py -o https://www.github.com -t username
