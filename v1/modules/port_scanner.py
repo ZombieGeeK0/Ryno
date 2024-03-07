@@ -1,31 +1,31 @@
-# importamos las librerías necesarias
+# import the necesary libraries
 import socket, time
 from colorama import Fore, Back
 
-# hacemos los colores de colorama
+# create the colorama colors
 GREEN = Fore.WHITE + Back.GREEN
 RESET = Fore.RESET + Back.RESET
 
-# creamos los argumentos de parser
+# create the parser arguments
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--scan', '-s',
                     required=True,
-                    help="Indica el host a escanear en busca de puertos abiertos")
+                    help="Indicates host to be scanned for open ports")
 
 args = parser.parse_args()
 
-# asignamos el objetivo
+# declare the target
 target = args.scan
 
-# inciamos el servidor
+# start the socket server
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  
-# se empieza el escaneo
+# start the scanning
 target_ip = socket.gethostbyname(target)
 print(f'[{GREEN}INFO{RESET}]: Starting scan on host:', target_ip)
  
-# función para escanear puertos
+# function for the port scanning
 def port_scan(port):
     try:
         s.connect((target_ip, port))
@@ -36,7 +36,7 @@ def port_scan(port):
  
 start = time.time()
  
-# se escanean los puertos del 0 al 4
+# ports 0 to 4 are scanned
 for port in range(5):
     if port_scan(port):
         print(f'[{GREEN}INFO{RESET}]: The port {port} is open')
