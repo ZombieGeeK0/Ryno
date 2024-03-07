@@ -21,7 +21,7 @@ class color:
 def main():
     email = args.research
     if email == "" or email == " ":
-        print(f'\n[{GREEN}INFO{RESET}]: Error: You must enter an email in the argument')
+        print(f'\n[{color.GREEN}INFO{color.RESET}]: Error: You must enter an email in the argument')
         sys.exit()
   
     else:
@@ -29,10 +29,10 @@ def main():
       
         if (re.fullmatch(regex, email)):
           
-            print(f'\n[{GREEN}INFO{RESET}]: Valid email')
+            print(f'\n[{color.GREEN}INFO{color.RESET}]: Valid email')
           
         else:
-            print(f'\n[{GREEN}INFO{RESET}]: Email no valid')
+            print(f'\n[{color.GREEN}INFO{color.RESET}]: Email no valid')
             sys.exit()
           
     dom = ["com","com.tw","co.in","be","de","co.uk","co.ma","dz","ru","ca"]
@@ -44,31 +44,31 @@ def main():
     command5 = f"site:instagram.com intext:{email}"
   
     for j in search(command, tld, num=10, stop=10, pause=2):
-        print(f'\n[{GREEN}INFO{RESET}]: Results found: {j}')
+        print(f'\n[{color.GREEN}INFO{color.RESET}]: Results found: {j}')
       
-    print(f'\n[{GREEN}INFO{RESET}]: Searching email in PDF archives...')
+    print(f'\n[{color.GREEN}INFO{color.RESET}]: Searching email in PDF archives...')
   
     time.sleep(1)
   
     for i in search(command2, tld, num=10, stop=10, pause=2):
-        print(f'\n[{GREEN}INFO{RESET}]: Results found: {i}')
-    print(f'\n[{GREEN}INFO{RESET}]: Searching email in social media...')
+        print(f'\n[{color.GREEN}INFO{color.RESET}]: Results found: {i}')
+    print(f'\n[{color.GREEN}INFO{color.RESET}]: Searching email in social media...')
   
     for a in search(command3, tld, num=10, stop=10, pause=2):
-        print(f'\n[{GREEN}INFO{RESET}]: Results found: {a}')
+        print(f'\n[{color.GREEN}INFO{color.RESET}]: Results found: {a}')
       
     for b in search(command4, tld, num=10, stop=10, pause=2):
-      print(f'\n[{GREEN}INFO{RESET}]: Results found: {b}')
+      print(f'\n[{color.GREEN}INFO{color.RESET}]: Results found: {b}')
       
     for c in search(command5, tld, num=10, stop=10, pause=2):
-      print(f'\n[{GREEN}INFO{RESET}]: Results found: {c}')
+      print(f'\n[{color.GREEN}INFO{color.RESET}]: Results found: {c}')
       
-    print(f'\n[{GREEN}INFO{RESET}]: Initializing socialscan...')
+    print(f'\n[{color.GREEN}INFO{color.RESET}]: Initializing socialscan...')
   
     time.sleep(1)
   
     print('')
     os.system(f"socialscan {email}")
-    print(f'\n[{GREEN}INFO{RESET}]: The scan is completed')
+    print(f'\n[{color.GREEN}INFO{color.RESET}]: The scan is completed')
 
 main()
