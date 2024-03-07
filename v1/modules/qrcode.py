@@ -26,7 +26,7 @@ def generate_qrcode(url,
               back_color=(187, 202, 229),
               name='qrcode_output.png'):
                 
-  qr = qrcode.QRCode(version=version,
+  qr = qrcode.qrcode(version=version,
                      error_correction=qrcode.constants.ERROR_CORRECT_L,
                      box_size=box_size,
                      border=border)
