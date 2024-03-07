@@ -51,8 +51,6 @@ parser.add_argument('--osint', '-o',
 
 args = parser.parse_args()
 
-os.system('cd logs')
-
 if args.console:
   os.system('cd modules && python3 console.py')
 
