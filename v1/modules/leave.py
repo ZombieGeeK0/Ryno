@@ -11,5 +11,4 @@ parser.add_argument('--leave', '-l',
 args = parser.parse_args()
 
 # close the terminal
-sys.exit(args.leave)
-os.system('clear && exit')
+os.system(f'sleep {args.leave} && clear && exit')
