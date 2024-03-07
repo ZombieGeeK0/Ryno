@@ -18,3 +18,7 @@ NONE
 
 This project is not aware of any vulnerability detected in the BETA version. 
 Reporting on the other versions is in progress, as they are still under construction.
+
+WARNING
+
+The interactive console is under construction for the second version of Ryno.
