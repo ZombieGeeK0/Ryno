@@ -11,11 +11,11 @@ RESET = Fore.RESET + Back.RESET
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--unhash', '-u',
-                    required=True,
+                    required=False,
                     help="Indicates the passkey to decrypt the text")
 
 parser.add_argument('--text', '-t',
-                    required=True,
+                    required=False,
                     help="Indicates the text")
 
 args = parser.parse_args()
