@@ -51,4 +51,5 @@ parser.add_argument('--osint', '-o',
 
 args = parser.parse_args()
 
-if args.console
+if args.console:
+  os.system('cd modules && python3 console.py')
