@@ -91,7 +91,7 @@ Explicacion del funcionamiento
 
 <hr>
 
-imagen
+![imagen](https://github.com/ZombieGeeK0/Ryno/assets/158185295/dac32c40-e25b-4293-a0ec-35ca37190bfb)
 
 <hr>
 
