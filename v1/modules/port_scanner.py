@@ -23,7 +23,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  
 # se empieza el escaneo
 target_ip = socket.gethostbyname(target)
-print(f'{GREEN}[INFO]:{RESET} Starting scan on host:', target_ip)
+print(f'[{GREEN}INFO{RESET}]: Starting scan on host:', target_ip)
  
 # función para escanear puertos
 def port_scan(port):
@@ -39,9 +39,9 @@ start = time.time()
 # se escanean los puertos del 0 al 4
 for port in range(5):
     if port_scan(port):
-        print(f'port {port} is open')
+        print(f'[{GREEN}INFO{RESET}]: The port {port} is open')
     else:
-        print(f'port {port} is closed')
+        print(f'[{GREEN}INFO{RESET}]: The port {port} is closed')
  
 end = time.time()
-print(f'Time taken {end-start:.2f} seconds')
+print(f'[{GREEN}INFO{RESET}]: Time taken: {end-start:.2f} seconds')
