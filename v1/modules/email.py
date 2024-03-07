@@ -7,7 +7,7 @@ from colorama import Fore, Back
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--research', '-r',
-                    required=True,
+                    required=False,
                     help="Indicate the e-mail address to search")
 
 args = parser.parse_args()
